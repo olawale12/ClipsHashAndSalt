@@ -7,7 +7,7 @@ namespace ClipsHashAndSalt
     {
         private static readonly Lazy<HashingAndSalting> hashingAndSaltingInstance = new Lazy<HashingAndSalting>(() => new HashingAndSalting());
 
-        private static HashingAndSalting GetHashingAndSalting
+        public static HashingAndSalting GetHashingAndSalting
         {
             get
             {
